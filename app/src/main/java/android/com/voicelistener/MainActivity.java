@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(matches.size() >0)
             txt_status.setText(matches.get(0));
 
-        Log.e(TAG, "THIS IS 7"+matches);
+        Log.e(TAG, "THIS IS 7");
         try {
 
             speech.destroy();
